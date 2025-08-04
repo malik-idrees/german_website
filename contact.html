@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+ <style>.fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+     line-height: 2; 
+    text-rendering: auto;
+}
+</style>
+</head>
+<body>
+  <!-- header -->
+<header class="main-header">
+  <div class="header-content container">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="images/real logo_-removebg-preview.webp" alt="Aktuelles Logo" />
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+
+    <!-- Navigation Menu -->
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li><a href="service.html">Dienstleistungen</a></li>
+        <li><a href="about.html">Über uns</a></li>
+        <li><a href="contact.html">Kontakt uns</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contact Button -->
+    <a href="contact.html" class="contact-btn">Kontakt <i class="fas fa-arrow-right"></i></a>
+  </div>
+</header>
+
+<!-- hero section -->
+
+    <main>
+        <section class="hero-section">
+            <div class="slider-container">
+                <div class="slide active" style="background-image: url('images/contact\ bg.webp');">
+                
+                    <div class="overlay"></div>
+                    <div class="slide-content container">
+                        <p class="subtitle">Sprechen Sie mit unseren Experten</p>
+                        <h1>Wir sind bereit zu helfen <br> nehmen Sie jetzt Kontakt auf</h1>
+                        <p class="description">Sie benötigen eine sichere und effiziente Elektroinstallation? Unsere Experten sind nur einen Anruf entfernt</p>
+                        
+                        <div class="ratings">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>4K: Happy Client</p>
+                           
+                        </div>
+                         <div>
+                            <img src="images/rate.png" alt="">
+                 </div>
+                    </div>
+                </div>
+                
+                
+                </div>
+            </div>
+            
+        </section>
+        <!-- This is contact section -->
+
+    <section class="contact-section">
+    <div class="contact-overlay"></div>
+    <div class="container contact-container">
+        <div class="contact-info-block">
+            <p class="subtitle">Kontaktieren Sie uns</p>
+            <h2>Nehmen Sie Kontakt auf</h2>
+            <p class="contact-description">
+                Haben Sie Fragen oder möchten Sie unsere Elektrodienstleistungen in Anspruch nehmen?
+                Unser Team hilft Ihnen gerne weiter! Egal, ob Sie Rat, Unterstützung oder ein detailliertes Angebot suchen,
+                wir sind nur eine Nachricht oder einen Anruf entfernt.
+            </p>
+
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Telefon</h4>
+                        <p><a href="tel:+1234567890">+123 456 7890</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>E-Mail</h4>
+                        <p><a href="mailto:Ahmad Zia.Zahedi@web.de">Ahmad Zia.Zahedi@web.de</a></p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Adresse</h4>
+                        <p>Noppiusstr. 1, 52062 Aachen</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin-in"></i>
+                    <div>
+                        <h4>LinkedIn</h4>
+                        <p><a href="#" target="_blank">Unser Profil</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="request-quote-form">
+            <h3>Angebot anfordern</h3>
+            <form>
+                <div class="form-group-row">
+                    <div class="form-group">
+                        <label for="firstName">Vorname (Pflichtfeld)</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Nachname (Pflichtfeld)</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail (Pflichtfeld)</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="additionalDetails">Zusätzliche Details (Optional)</label>
+                    <textarea id="additionalDetails" name="additionalDetails" rows="5"></textarea>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="privacyAgree" name="privacyAgree" required>
+                    <label for="privacyAgree">Ich stimme der Datenschutzrichtlinie der Website zu.</label>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">Jetzt absenden <i class="fas fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+<div class="workflow-main-wrapper">
+        <!-- Section 1: Image Left, Content Right -->
+        <section class="workflow-step-block">
+            <div class="workflow-flex-row">
+                <div class="workflow-visual-panel">
+                    <img src="images/Make An Appointment.jpg" alt="Professional maintenance worker" />
+                </div>
+                <div class="workflow-info-panel">
+                    <div class="workflow-bullet-indicator">
+                        <span class="workflow-accent-dot"></span>
+                    </div>
+                    <div class="workflow-text-content">
+                        <h2><span class="workflow-number-label">01.</span> Termin vereinbaren</h2>
+                        <p>Unser „Terminvereinbarungsservice“ ermöglicht es Ihnen, einen Besuch eines unserer zertifizierten Elektriker zu buchen für eine Vielzahl von elektrischen Dienstleistungen, darunter Installationen, Reparaturen, Inspektionen und Notfalldienste. Ob für Ihr Zuhause, Ihr Büro oder Ihr Gewerbeobjekt wir machen die Terminvereinbarung einfach und zuverlässig</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Content Left, Image Right -->
+        <section class="workflow-step-block workflow-alternate-layout">
+            <div class="workflow-flex-row">
+                <div class="workflow-info-panel">
+                    <div class="workflow-bullet-indicator">
+                        <span class="workflow-accent-dot"></span>
+                    </div>
+                    <div class="workflow-text-content">
+                        <h2><span class="workflow-number-label">02.</span> Wählen Sie Ihren Service</h2>
+                        <p>Wählen Sie aus unserem Angebot an professionellen Elektrodienstleistungen, die darauf ausgelegt sind, Ihr Zuhause oder Ihr Unternehmen sicher und effizient mit Strom zu versorgen. Ob Installation, Reparatur oder Wartung  unsere zertifizierten Elektriker stehen Ihnen jederzeit zur Verfügung</p>
+                    </div>
+                </div>
+                <div class="workflow-visual-panel">
+                    <img src="images/Select Your Service1.jpg" alt="Service selection" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Image Left, Content Right -->
+        <section class="workflow-step-block">
+            <div class="workflow-flex-row">
+                <div class="workflow-visual-panel">
+                    <img src="images/Select Your Service.webp" alt="Service handover" />
+                </div>
+                <div class="workflow-info-panel">
+                    <div class="workflow-bullet-indicator">
+                        <span class="workflow-accent-dot"></span>
+                    </div>
+                    <div class="workflow-text-content">
+                        <h2><span class="workflow-number-label">03.</span> Übergabe der Dienstleistung</h2>
+                        <p>Wir freuen uns, Ihnen mitzuteilen, dass die Elektroinstallation erfolgreich abgeschlossen wurde und nun zur Übergabe bereitsteht. Alle Systeme wurden umfassend geprüft, um sicherzustellen, dass sie den höchsten Sicherheitsstandards entsprechen, alle geltenden Vorschriften einhalten und zuverlässig funktionieren</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+   
+
+ 
+
+<!-- ORIGINAL TESTIMONIALS -->
+ <div class="testimonial-section">
+    <h2 class="testimonial-heading">Was unsere Kunden über unsere Elektrodienstleistungen sagen</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial-track">
+
+        <div class="testimonial-card">
+          <div>
+            <div class="customer-name">Sarah Johnson</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Absolut fantastischer Service von MiLLO Elektrotechnik GmbH! Das Team war professionell, effizient und lieferte genau das, was versprochen wurde. Unsere Elektroinstallationen wurden einwandfrei ausgeführt und die Qualität der Arbeit ist hervorragend.
+            </p>
+          </div>
+          <div class="review-location">Berlin, Deutschland. vor 2 Monaten</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="customer-name">Michael Thompson</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Von der ersten Beratung bis zum Projektabschluss bot MiLLO Elektrotechnik GmbH einen außergewöhnlichen Service. Die Detailgenauigkeit und Handwerkskunst sind bemerkenswert. Sehr empfehlenswert für jeden, der Elektrodienstleistungen benötigt.
+            </p>
+          </div>
+          <div class="review-location">München, Deutschland. vor 1 Monat</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="customer-name">Emma Williams</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Hervorragende Arbeit und Kundenservice. Das Team war pünktlich, sauber und respektvoll während des gesamten Prozesses. Unsere neuen Elektroinstallationen haben unser Zuhause komplett verändert. Vielen Dank, MiLLO Elektrotechnik GmbH!
+            </p>
+          </div>
+          <div class="review-location">Hamburg, Deutschland. vor 3 Wochen</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="customer-name">David Brown</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Professionelles, zuverlässiges und erfahrenes Team. Die Elektroarbeiten wurden pünktlich und im Rahmen des Budgets abgeschlossen. Die Qualität der Materialien und der Verarbeitung ist exzellent. Würde MiLLO Elektrotechnik GmbH definitiv wieder beauftragen.
+            </p>
+          </div>
+          <div class="review-location">Köln, Deutschland. vor 1 Woche</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div>
+            <div class="customer-name">Lisa Anderson</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Unglaubliche Arbeit an unserem elektrischen System! Das Team von MiLLO Elektrotechnik GmbH machte den gesamten Prozess reibungslos und stressfrei. Ausgezeichnete Kommunikation durchweg und das Endergebnis übertrifft unsere Erwartungen.
+            </p>
+          </div>
+          <div class="review-location">Frankfurt, Deutschland. vor 4 Tagen</div>
+        </div>
+
+        <div class="testimonial-card duplicated">
+          <div>
+            <div class="customer-name">Sarah Johnson</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Absolut fantastischer Service von MiLLO Elektrotechnik GmbH! Das Team war professionell, effizient und lieferte genau das, was versprochen wurde. Unsere Elektroinstallationen wurden einwandfrei ausgeführt und die Qualität der Arbeit ist hervorragend.
+            </p>
+          </div>
+          <div class="review-location">Berlin, Deutschland. vor 2 Monaten</div>
+        </div>
+
+        <div class="testimonial-card duplicated">
+          <div>
+            <div class="customer-name">Michael Thompson</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Von der ersten Beratung bis zum Projektabschluss bot MiLLO Elektrotechnik GmbH einen außergewöhnlichen Service. Die Detailgenauigkeit und Handwerkskunst sind bemerkenswert. Sehr empfehlenswert für jeden, der Elektrodienstleistungen benötigt.
+            </p>
+          </div>
+          <div class="review-location">München, Deutschland. vor 1 Monat</div>
+        </div>
+
+        <div class="testimonial-card duplicated">
+          <div>
+            <div class="customer-name">Emma Williams</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Hervorragende Arbeit und Kundenservice. Das Team war pünktlich, sauber und respektvoll während des gesamten Prozesses. Unsere neuen Elektroinstallationen haben unser Zuhause komplett verändert. Vielen Dank, MiLLO Elektrotechnik GmbH!
+            </p>
+          </div>
+          <div class="review-location">Hamburg, Deutschland. vor 3 Wochen</div>
+        </div>
+
+        <div class="testimonial-card duplicated">
+          <div>
+            <div class="customer-name">David Brown</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Professionelles, zuverlässiges und erfahrenes Team. Die Elektroarbeiten wurden pünktlich und im Rahmen des Budgets abgeschlossen. Die Qualität der Materialien und der Verarbeitung ist exzellent. Würde MiLLO Elektrotechnik GmbH definitiv wieder beauftragen.
+            </p>
+          </div>
+          <div class="review-location">Köln, Deutschland. vor 1 Woche</div>
+        </div>
+
+        <div class="testimonial-card duplicated">
+          <div>
+            <div class="customer-name">Lisa Anderson</div>
+            <div class="star-rating">
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+              <span class="star">★</span>
+            </div>
+            <div class="verified-badge">
+              <div class="checkmark">✓</div>
+              Verifizierter Kunde
+            </div>
+            <p class="testimonial-text">
+              Unglaubliche Arbeit an unserem elektrischen System! Das Team von MiLLO Elektrotechnik GmbH machte den gesamten Prozess reibungslos und stressfrei. Ausgezeichnete Kommunikation durchweg und das Endergebnis übertrifft unsere Erwartungen.
+            </p>
+          </div>
+          <div class="review-location">Frankfurt, Deutschland. vor 4 Tagen</div>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+
+
+<!-- This is cta section -->
+<section class="cta-banner">
+<div class="container cta-container">
+<div class="cta-text">
+<h2>Bereit, Ihre  Einsparungen <br> und Zuverlässigkeit zu <br> steigern?</h2>
+<p>Milo liefert effiziente, kostengünstige Elektrolösungen, die darauf <br> ausgelegt sind, die Zuverlässigkeit zu erhöhen und Energiekosten <br> zu senken alles unterstützt durch Experten Service, auf den Sie <br> sich verlassen können</p>
+<div class="subscription-form">
+<input type="email" placeholder="E-Mail-Adresse">
+<button class="subscribe-btn">Jetzt abonnieren <i class="fas fa-arrow-right"></i></button>
+</div>
+</div>
+<div class="cta-image">
+<img src="images/Maintenance and Repair Work.jpg" alt="Überraschter Elektriker">
+</div>
+</div>
+</section>
+<!-- This is a  footer section -->
+
+<footer class="main-footer">
+    <div class="container footer-content">
+        <div class="footer-col about-col">
+            <div class="footer-logo">
+                <img src="images/logo .webp" alt="">
+            </div>
+            <p>Unser Ziel ist es, den Prozess zu<br> entmystifizieren,  Ihre Anliegen zu <br> beantworten und Sie  mit dem  <br>Wissen  auszustatten, um zu starten.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Elektrodienste</h4>
+            <ul>
+                <li><a href="service.html">Elektromobilität </a></li>
+                <li><a href="service.html">Gewerbesektor</a></li>
+                <li><a href="service.html">Wartung</a></li>
+                <li><a href="service.html">Intelligentes Heim</a></li>
+                <li><a href="service.html">Elektrische Dienstleistungen</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Schnellzugriffe</h4>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="about.html">Über uns</a></li>
+                <li><a href="service.html">Service</a></li>
+                
+                <li><a href="contact.html">Kontaktieren Sie uns</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Kontaktieren Sie uns</h4>
+            <div class="contact-item-footer">
+                <i class="fas fa-phone-alt"></i>
+                <p><a href="tel: 01575-9105368"> 01575-9105368</a></p>
+            </div>
+            <div class="contact-item-footer">
+                <i class="fas fa-envelope"></i>
+                <p><a href="mailto:Ahmad.Zia.Zahedi@web.de">Ahmad.Zia.Zahedi@web.de</a></p>
+
+            </div>
+            <div class="contact-item-footer">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Noppiusstr. 1, 52062 Aachen</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; Copyright 2025 - Aktuell. Alle Rechte vorbehalten</p>
+        </div>
+    </div>
+</footer>
+<div class="scroll-to-top">
+    <div class="brand-text">
+        <i class="fa-light fa-arrow-up-wide-short"></i>
+    </div>
+</div>
+        
+
+
+  <script src="script.js"></script>
+</body>
+</html>
